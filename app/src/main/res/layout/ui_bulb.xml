@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_ui_bulb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone">
+
+    <ImageView
+        android:id="@+id/image_bulb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/bulb_cross" />
+
+    <net.dell.supperflashlight.view.HideText
+        android:id="@+id/tv_custom_hide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:text="电灯泡，点击变亮" />
+
+
+</FrameLayout>

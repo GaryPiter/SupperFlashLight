@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ui_flashlight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_flashlight"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/flashlight" />
+
+    <ImageView
+        android:id="@+id/image_flashlight_controller"
+        android:layout_width="120dp"
+        android:layout_height="360dp"
+        android:layout_gravity="center|bottom" />
+</FrameLayout>
